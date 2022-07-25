@@ -1,0 +1,23 @@
+
+:root{
+    --success-color:#23cc71;
+    --error-color:#e74c3c;
+}
+.form-check.success input{
+    border-color: var(--success-color);
+
+}
+.form-check.error input{
+    border-color: var(--error-color);
+
+}
+.form-check small {
+    color: var(--error-color);
+    position: absolute;
+    
+    visibility: hidden;
+}
+.form-check.error small{
+    visibility: visible;
+
+}
